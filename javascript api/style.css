@@ -1,0 +1,37 @@
+
+body {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#searchInput {
+  width: 100%;
+}
+
+#searchBtn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#movies {
+  margin-top: 20px;
+}
+
+.movie-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}
+
+.movie-poster {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
