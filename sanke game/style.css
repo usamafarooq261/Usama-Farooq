@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fafafa;
+  }
+
+  .game-container {
+    text-align: center;
+  }
+
+  canvas {
+    border: 1px solid #333;
+  }
+
+  .btn-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .btn-container button {
+    margin: 0 10px;
+  }
+
+  #scoreboard {
+    text-align: right;
+    margin-top: 10px;
+  }
