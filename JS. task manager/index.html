@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Ordering</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Food Ordering</h1>
+
+    <div class="row">
+      <!-- Drinks -->
+      <div class="col-md-4">
+        <h2 class="mb-3">Drinks</h2>
+        <ul id="drinksList" class="list-group"></ul>
+      </div>
+
+      <!-- Fast Food -->
+      <div class="col-md-4">
+        <h2 class="mb-3">Fast Food</h2>
+        <ul id="fastFoodList" class="list-group"></ul>
+      </div>
+
+      <!-- Desserts -->
+      <div class="col-md-4">
+        <h2 class="mb-3">Desserts</h2>
+        <ul id="dessertsList" class="list-group"></ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="mb-3">Your Order</h2>
+        <ul id="orderList" class="list-group"></ul>
+        <div class="total-price mt-3">
+          <label>Total Price: $</label>
+          <span id="totalPrice">0.00</span>
+        </div>
+        <button id="checkoutBtn" class="btn btn-primary mt-3" onclick="checkout()">Go to Payment</button>
+      </div>
+    </div>
+
+    <div class="checkout-modal" id="checkoutModal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <h2>Checkout</h2>
+        <ul id="checkoutOrderList" class="list-group"></ul>
+        <p>Total Price: $<span id="modalTotalPrice">0.00</span></p>
+        <label for="paymentMethod">Payment Method:</label>
+        <select id="paymentMethod" class="form-control mb-3">
+          <option value="credit">Credit Card</option>
+          <option value="paypal">PayPal</option>
+          <option value="cash">Cash on Delivery</option>
+        </select>
+        <button id="placeOrderBtn" class="btn btn-success" onclick="placeOrder()">Place Order</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
