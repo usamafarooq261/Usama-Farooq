@@ -1,3 +1,4 @@
+![logo](https://github.com/usamafarooq261/Usama-Farooq/blob/main/github-header-image-4.png)
 <h1 align="center">Hi 👋, I'm Usama Farooq</h1>
 <h3 align="center">A passionate frontend developer from poland</h3>
 
