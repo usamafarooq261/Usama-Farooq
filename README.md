@@ -5,7 +5,7 @@
 <img align="right" alt="coding" width="400" src="https://user-images.githubusercontent.com/55389276/140866485-8fb1c876-9a8f-4d6a-98dc-08c4981eaf70.gif">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=usamafarooq261&label=Profile%20views&color=0e75b6&style=flat" alt="usamafarooq261" /> </p>
 
-- 🌱 I’m currently learning **python**
+- 🌱 I’m currently learning **Angular**
 
 - 👨‍💻 All of my projects are available at [https://www.linkedin.com/in/usama-farooq-ab2392263?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BX1RovXkpRL6SH%2F8etkYwHw%3D%3D](https://www.linkedin.com/in/usama-farooq-ab2392263?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BX1RovXkpRL6SH%2F8etkYwHw%3D%3D)
 
